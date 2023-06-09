@@ -1,0 +1,7 @@
+chart-dirs:
+  - .
+all: true
+chart-repos:
+  - stable=https://charts.helm.sh/stable
+  - bitnami=https://charts.bitnami.com/bitnami
+helm-extra-args: --timeout 600s
